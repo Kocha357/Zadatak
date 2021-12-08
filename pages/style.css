@@ -1,0 +1,135 @@
+body {
+  background-image: url("pozadina1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+}
+h2 {
+  font-size: 64px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 0px;
+  border-radius: 20px;
+  border-bottom: 1px solid black;
+}
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-size: 40px;
+}
+h4 {
+  font-family: "Outfit", sans-serif;
+  font-size: 32px;
+}
+#Container {
+  background-color: rgba(255, 255, 255, 0.45);
+  width: 960px;
+  margin: 10px auto;
+  padding: 50px;
+  border-radius: 20px;
+}
+.nav:hover {
+  border: 2px solid white;
+  background-color: black;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 8px;
+  width: 150px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid black;
+  position: relative;
+  left: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+}
+
+.Top {
+  color: blue;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.navigation {
+  margin: 8px;
+  padding: 16px;
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+}
+.sidebar {
+  margin: 8px;
+  padding: 8px;
+  width: 700px;
+  height: 400px;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  border-left: 1px solid black;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.sidebar2 {
+  margin: 8px;
+  padding: 16px;
+  width: 700px;
+  height: 300px;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  border-left: 1px solid black;
+}
+img {
+  float: left;
+  margin-right: 8px;
+  padding: 0px;
+}
+#footer {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 8px;
+  text-align: center;
+  padding: 4px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  border-top: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  background-color: rgba(233, 77, 77, 0.5);
+  text-align: center;
+  color: white;
+  padding: 4px;
+  border-color: white;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+}
+td {
+  background-color: rgb(87, 87, 240, 0.5);
+  border-color: white;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  font-size: 16px;
+  padding: 1px;
+  color: white;
+}

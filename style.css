@@ -1,0 +1,89 @@
+body {
+  background-image: url("pozadina.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+ 
+  font-size: 64px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 0px;
+  border-radius: 20px;
+  border-bottom: 1px solid black;
+}
+
+#Container {
+  background-color: rgba(255, 255, 255, 0.45);
+  width: 960px;
+  margin: 10px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+.navigation a{
+  text-decoration: none;
+  color: black;
+  padding: 16px;
+  border-radius: 20px;
+  position: relative;
+  right:60px;
+  
+}
+
+.navigation li{
+width: 250px;
+  margin-bottom: 32px;
+  list-style-type: none;
+ 
+  font-family:  "Merriweather", serif;
+  text-align: center;
+}
+.navigation {
+  
+  margin: 8px;
+  padding: 8px;
+  width: 250px;
+  float: left;
+  position: relative;
+  left: 10px;
+  box-sizing: border-box;
+
+}
+.navigation li a:hover{
+  color:white;
+  background-color:rgba(0, 0, 0, 0.5);
+  border: 1px solid gray;
+
+
+}
+
+.sidebar {
+  margin: 8px;
+  padding: 16px;
+  height: 400px;
+  width: 650px;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  float: right;
+  box-sizing: border-box;
+border-left: 1px solid black;
+}
+img {
+  float: left;
+  margin-right: 8px;
+  padding: 0px;
+}
+#footer {
+  clear: both;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 8px;
+  text-align: center;
+  padding: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  border-top: 1px solid black;
+}
